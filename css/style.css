@@ -1,0 +1,76 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	
+	background: url('../res/weather.jpg');
+	background-size: cover;
+	background-repeat: no-repeat ;
+	background-color: #48dbfb;
+	text-align: center;
+}
+.title{
+	margin-top:5vh;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'IM Fell French Canon SC', serif;
+}
+
+@media (max-width: 700px){
+	.title{
+	font-size: 25px;
+}
+}
+.input{
+	margin-top: 8vh;
+	line-height: 80px;
+
+}
+
+input[type="text"]{
+	height: 50px;
+	width: 600px;
+	background: #e7e7e7;
+	font-weight: bold;
+	font-size: 20px;
+	border: none;
+	border-radius: 10px;
+	padding: 10px 50px;
+	font-family: 'IM Fell French Canon SC', serif;
+}
+
+input[type="submit"]{
+	height: 50px;
+	width: 200px;
+	background: #e7e7e7;
+	font-weight: bold;
+	font-size: 20px;
+	border: none;
+	border-radius: 10px;
+
+}
+
+@media (max-width:600px) {
+input[type="text"]{
+width: 300px;}
+input[type="submit"]{
+	width: 120px;
+	font-size: 15px;
+
+
+}
+}
+.name{
+font-size: 50px;
+font-family: 'IM Fell French Canon SC', serif;
+}
+.desc{
+font-size: 25px;
+}
+.temp{
+font-size: 25px;}
+.wind_speed{
+font-size: 25px;}
+
