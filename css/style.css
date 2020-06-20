@@ -52,6 +52,16 @@ input[type="submit"]{
 
 }
 
+input[type="button"]{
+	height: 50px;
+	width: 200px;
+	background: #e7e7e7;
+	font-weight: bold;
+	font-size: 20px;
+	border: none;
+	border-radius: 10px;
+
+}
 @media (max-width:600px) {
 input[type="text"]{
 width: 300px;}
