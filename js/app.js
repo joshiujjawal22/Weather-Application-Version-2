@@ -40,7 +40,7 @@ function speech() {
                     output.value = transcript;
 
                     // API work:
-                    fetch('https://api.openweathermap.org/data/2.5/weather?q='+transcript+'&appid=50a7aa80fa492fa92e874d23ad061374')
+                    fetch('https://api.openweathermap.org/data/2.5/weather?q='+transcript+'&appid=1fc232b651c2734118f63de0d555156b')
                     .then(response => response.json())
                     .then(data => {
                         nam.innerHTML = "City Name : " + data['name'];
